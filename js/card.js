@@ -67,7 +67,7 @@ const secondDish = document.querySelector(".offer-right-second-dish");
 window.addEventListener("DOMContentLoaded", function () {
   mainDish.innerHTML = `<button class="btn card-vertical" onclick = "openModalMainDish()">
   <div class="card-img">
-    <img src="/img/shadow (1).svg" alt="" class="card-img-shadow" />
+    <img src="img/shadow (1).svg" alt="" class="card-img-shadow" />
     <img src="${mainDishBig.img}" alt="" class="card-img-big" />
   </div>
   <div class="card-description">
@@ -145,7 +145,7 @@ window.addEventListener("DOMContentLoaded", function () {
   secondDish.innerHTML = `<button class="btn card-horizontal" onclick="openModalSecondDish()">
   <div class="card-img">
     <img
-      src="/img/shadow (1).svg"
+      src="img/shadow (1).svg"
       alt=""
       class="card-img-shadow"
     />
@@ -231,7 +231,7 @@ window.addEventListener("DOMContentLoaded", function () {
     return `
 <button class="btn card-vertical "onclick = "openModalDish(${item.id})">
     <div class="card-img">
-      <img src="/img/shadow (1).svg" alt="" class="card-img-shadow" />
+      <img src="img/shadow (1).svg" alt="" class="card-img-shadow" />
       <img src="${item.img}" alt="" class="card-img-big" />
     </div>
     <div class="card-description">
@@ -449,7 +449,7 @@ function openModalDish(indexDish) {
     <div class="dish-right">
       <div class="card-img">
         <img
-          src="/img/shadow (1).svg"
+          src="img/shadow (1).svg"
           alt=""
           class="card-img-shadow card-img-shadow-modal"
         />
@@ -634,7 +634,7 @@ function openModalMainDish() {
   <div class="dish-right">
     <div class="card-img">
       <img
-        src="/img/shadow (1).svg"
+        src="img/shadow (1).svg"
         alt=""
         class="card-img-shadow card-img-shadow-modal"
       />
@@ -817,7 +817,7 @@ function openModalSecondDish() {
   <div class="dish-right">
     <div class="card-img">
       <img
-        src="/img/shadow (1).svg"
+        src="img/shadow (1).svg"
         alt=""
         class="card-img-shadow card-img-shadow-modal"
       />
