@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Totor &amp Jadou</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header hidden">
+      <div class="container">
+        <div class="header__list">
+          <button class="header__list-menu-btn btn">
+            <svg
+              width="25"
+              height="3"
+              viewBox="0 0 25 3"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="menu-btn__svg"
+            >
+              <line
+                y1="1.16666"
+                x2="25"
+                y2="1.16666"
+                stroke="white"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+
+          <a href="#" class="header__list-logo"
+            ><img src="img/Logo.png" alt="" class="list-logo__img"
+          /></a>
+          <div action="" class="search-form">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Rechercher une recette"
+            />
+            <button class="header__list-find-btn btn">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="find-btn__svg"
+              >
+                <path
+                  d="M11 2C15.968 2 20 6.032 20 11C20 15.968 15.968 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2ZM11 18C14.867 18 18 14.867 18 11C18 7.132 14.867 4 11 4C7.132 4 4 7.132 4 11C4 14.867 7.132 18 11 18ZM19.485 18.071L22.314 20.899L20.899 22.314L18.071 19.485L19.485 18.071Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section-offer hidden">
+        <div class="container">
+          <div class="offer-content">
+            <div class="offer-right">
+              <h1 class="offer__heading">
+                Totor et Jadou, un univers dédié aux recettes et astuces
+                écologiques du quotidien à moins de 5€
+              </h1>
+              <div class="offer-right-content">
+                <div class="offer-right-main-dish"></div>
+                <!-- <button class="btn card-vertical">
+                  <div class="card-img">
+                    <img
+                      src="/img/shadow (1).svg"
+                      alt=""
+                      class="card-img-shadow"
+                    />
+                    <img
+                      src="img/dishes/spagety.png"
+                      alt=""
+                      class="card-img-big"
+                    />
+                  </div>
+                  <div class="card-description">
+                    <h3 class="card-heading">
+                      Pâtes aux aubergines et tranches de chorizo
+                    </h3>
+                    <div class="card-marks">
+                      <div class="card-marks__stars">
+                        <svg
+                          width="12"
+                          height="11"
+                          viewBox="0 0 12 11"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                            fill="#A2A8BA"
+                          />
+                        </svg>
+                        <svg
+                          width="12"
+                          height="11"
+                          viewBox="0 0 12 11"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                            fill="#A2A8BA"
+                          />
+                        </svg>
+                        <svg
+                          width="12"
+                          height="11"
+                          viewBox="0 0 12 11"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                            fill="#A2A8BA"
+                          />
+                        </svg>
+                        <svg
+                          width="12"
+                          height="11"
+                          viewBox="0 0 12 11"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                            fill="#A2A8BA"
+                          />
+                        </svg>
+                        <svg
+                          width="12"
+                          height="11"
+                          viewBox="0 0 12 11"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                            fill="#A2A8BA"
+                          />
+                        </svg>
+                      </div>
+                      <p class="card-mark"></p>
+                    </div>
+                  </div>
+                </button> -->
+                <div class="offer-right-content-right">
+                  <div class="offer-right-second-dish"></div>
+                  <!-- <button class="btn card-horizontal">
+                    <div class="card-img">
+                      <img
+                        src="/img/shadow (1).svg"
+                        alt=""
+                        class="card-img-shadow"
+                      />
+                      <img
+                        src="img/dishes/cake.png"
+                        alt=""
+                        class="card-img-small"
+                      />
+                    </div>
+                    <div class="card-description">
+                      <h3 class="card-heading">
+                        Pâtes aux aubergines et tranches de chorizo
+                      </h3>
+                      <div class="card-marks">
+                        <div class="card-marks__stars">
+                          <svg
+                            width="12"
+                            height="11"
+                            viewBox="0 0 12 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                              fill="#A2A8BA"
+                            />
+                          </svg>
+                          <svg
+                            width="12"
+                            height="11"
+                            viewBox="0 0 12 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                              fill="#A2A8BA"
+                            />
+                          </svg>
+                          <svg
+                            width="12"
+                            height="11"
+                            viewBox="0 0 12 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                              fill="#A2A8BA"
+                            />
+                          </svg>
+                          <svg
+                            width="12"
+                            height="11"
+                            viewBox="0 0 12 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                              fill="#A2A8BA"
+                            />
+                          </svg>
+                          <svg
+                            width="12"
+                            height="11"
+                            viewBox="0 0 12 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                              fill="#A2A8BA"
+                            />
+                          </svg>
+                        </div>
+                        <p class="card-mark"></p>
+                      </div>
+                    </div>
+                  </button> -->
+
+                  <button class="btn card-horizontal">
+                    <img src="img/morebtn.png" alt="" class="card-img-small" />
+
+                    <div class="card-description">
+                      <h3 class="card-heading" style="margin-left: 13px">
+                        Découvres toutes nos recettes ici.
+                      </h3>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="offer-left"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dishes hidden">
+        <div class="container">
+          <h4 class="heading-description">Coup de coeur</h4>
+          <div class="dishes-heading-block">
+            <h2 class="dishes-heading">Nos plats principaux du moment️</h2>
+            <a href="" class="more-link"
+              ><svg
+                width="15"
+                height="16"
+                viewBox="0 0 15 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.83333 3V4.66667H1.66667V13.8333H10.8333V9.66667H12.5V14.6667C12.5 15.1269 12.1269 15.5 11.6667 15.5H0.833333C0.3731 15.5 0 15.1269 0 14.6667V3.83333C0 3.3731 0.3731 3 0.833333 3H5.83333ZM15 0.5V7.16667H13.3333L13.3333 3.34417L6.83925 9.83925L5.66074 8.66075L12.1541 2.16667H8.33333V0.5H15Z"
+                  fill="#A2A8BA"
+                />
+              </svg>
+              Tout nos plats prcipaux</a
+            >
+          </div>
+          <div class="dishes-cards">
+            <!-- <button class="btn card-vertical">
+              <div class="card-img">
+                <img src="/img/shadow (1).svg" alt="" class="card-img-shadow" />
+                <img src="img/dishes/spagety.png" alt="" class="card-img-big" />
+              </div>
+              <div class="card-description">
+                <h3 class="card-heading">
+                  Pâtes aux aubergines et tranches de chorizo
+                </h3>
+                <div class="card-marks">
+                  <div class="card-marks__stars">
+                    <svg
+                      width="12"
+                      height="11"
+                      viewBox="0 0 12 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                        fill="#A2A8BA"
+                      />
+                    </svg>
+                    <svg
+                      width="12"
+                      height="11"
+                      viewBox="0 0 12 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                        fill="#A2A8BA"
+                      />
+                    </svg>
+                    <svg
+                      width="12"
+                      height="11"
+                      viewBox="0 0 12 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                        fill="#A2A8BA"
+                      />
+                    </svg>
+                    <svg
+                      width="12"
+                      height="11"
+                      viewBox="0 0 12 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                        fill="#A2A8BA"
+                      />
+                    </svg>
+                    <svg
+                      width="12"
+                      height="11"
+                      viewBox="0 0 12 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.19309 8.48066L2.71048 10.5574L3.65727 6.6816L0.558594 4.09003L4.62598 3.77187L6.19309 0.0927734L7.7602 3.77187L11.8282 4.09003L8.72891 6.6816L9.67569 10.5574L6.19309 8.48066Z"
+                        fill="#A2A8BA"
+                      />
+                    </svg>
+                  </div>
+                  <p class="card-mark"></p>
+                </div>
+              </div>
+            </button> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="review hidden">
+        <div class="container review-container">
+          <h4 class="review-heading-yellow">A Propos</h4>
+          <h2 class="review-heading">Nos ambitions et nos valeurs</h2>
+          <p class="review-description">
+            Notre blog de recettes écologiques et économiques est né de notre
+            profond engagement envers une alimentation durable et abordable pour
+            tous. Nous croyons fermement que l'écologie et le bien-être ne
+            doivent pas être un luxe, mais accessibles à chacun. Notre mission
+            est de partager des recettes délicieuses et nutritives qui
+            respectent la planète tout en préservant votre portefeuille. Nous
+            promouvons l'utilisation d'ingrédients biologiques, cultivés de
+            manière responsable, et nous encourageons nos lecteurs à privilégier
+            les produits locaux pour réduire leur empreinte carbone. En
+            rejoignant notre communauté, vous découvrirez non seulement comment
+            bien manger pour pas cher, mais aussi comment chaque petit geste
+            compte dans la préservation de notre environnement. Ensemble, nous
+            pouvons faire une différence significative tout en savourant des
+            repas savoureux et bons pour la planète.
+          </p>
+          <svg
+            width="221"
+            height="192"
+            viewBox="0 0 221 192"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="review-signature"
+          >
+            <path
+              d="M17.9157 112.019C21.3162 112.101 24.7158 112.228 28.1161 112.322C30.9502 112.401 33.7867 112.488 36.6184 112.632C36.9176 112.647 37.2383 112.584 37.5146 112.7C38.2661 113.016 35.9019 112.939 35.0975 113.072C28.6762 114.127 22.3561 115.772 16.0633 117.407C11.6187 118.561 6.25112 119.246 2.0701 121.239C1.74101 121.396 2.79774 121.383 3.15936 121.337C10.8752 120.351 18.5777 118.804 26.2602 117.657C75.5361 110.303 125.247 102.96 175.013 99.9192C184.836 99.319 194.714 98.9917 204.557 99.1262C205.122 99.134 205.688 99.14 206.25 99.195C206.489 99.2184 205.841 99.4828 205.602 99.5138C202.983 99.854 200.334 99.9482 197.704 100.152"
+              stroke="white"
+              stroke-opacity="0.3"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+            <path
+              d="M88.3054 107.71C92.4185 97.9196 104.214 68.3397 100.667 78.3485C97.5272 87.2049 97.4097 97.3432 98.1255 106.594C98.24 108.073 100.029 127.571 103.378 126.991C104.843 126.737 105.541 121.921 105.676 121.276C106.892 115.471 107.18 109.574 107.423 103.667C107.615 98.994 107.545 94.207 108.009 89.5516C108.221 87.418 108.707 93.7832 109.096 95.8917C109.204 96.4757 110.773 103.157 111.522 102.409C113.591 100.343 114.592 95.8081 115.452 93.1155C116.104 91.0773 116.904 85.6674 117.718 90.7791C118.165 93.5848 120.141 99.0794 119.182 101.85C118.72 103.183 115.555 101.879 115.066 101.74C107.389 99.5498 99.8972 97.1892 91.9842 95.8959C85.4079 94.8211 78.7563 94.2536 72.0928 94.3214C68.8431 94.3545 67.1237 94.5013 64.0254 94.8115C62.898 94.9244 58.8733 95.521 63.0821 94.672C81.5953 90.9376 100.206 87.6178 118.766 84.1283C143.102 79.5526 167.439 74.6898 192.006 71.4809C199.182 70.5436 206.504 69.6583 213.759 69.7266C215.578 69.7438 218.947 68.7942 219.146 70.6025C219.211 71.2002 218.387 71.5894 217.848 71.8558C216.041 72.7491 214.112 73.3742 212.206 74.0329C189.965 81.7224 166.899 87.1285 144.069 92.7552"
+              stroke="white"
+              stroke-opacity="0.3"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <div class="section-advice hidden">
+        <div class="container">
+          <h4 class="advice-heading-yellow">ASTUCES ÉCOLOGIQUE</h4>
+          <div class="advice-heading-block">
+            <h2 class="advice-heading">Nos recettes et astuces écologique</h2>
+            <a href="" class="more-link"
+              ><svg
+                width="15"
+                height="16"
+                viewBox="0 0 15 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.83333 3V4.66667H1.66667V13.8333H10.8333V9.66667H12.5V14.6667C12.5 15.1269 12.1269 15.5 11.6667 15.5H0.833333C0.3731 15.5 0 15.1269 0 14.6667V3.83333C0 3.3731 0.3731 3 0.833333 3H5.83333ZM15 0.5V7.16667H13.3333L13.3333 3.34417L6.83925 9.83925L5.66074 8.66075L12.1541 2.16667H8.33333V0.5H15Z"
+                  fill="#A2A8BA"
+                />
+              </svg>
+              Tout nos plats prcipaux</a
+            >
+          </div>
+          <div class="advice-cards">
+            <!-- <button class="advice-card btn">
+              <img
+                src="img/AdivicePhoto.png"
+                alt=""
+                class="advice-card-photo"
+              />
+              <div class="advice-card-text">
+                <h3 class="advice-card-heading">
+                  Le pouvoir des huiles essentielles
+                </h3>
+                <p class="advice-card-description">
+                  Rejoignez-nous sur les réseaux sociaux pour partager,
+                  apprendre et grandir ensemble dans notre quête de recettes
+                  écologiques et économiques. Votre voix compte, et nous sommes
+                  impatients de vous accueillir dans notre communauté engagée !
+                </p>
+                <div class="advice-card-autor">
+                  <img
+                    src="img/AutorPhoto.svg"
+                    alt=""
+                    class="advice-card-autor-photo"
+                  />
+                  <div class="advice-card-autor-text">
+                    <p class="advice-card-autor-heading">Totor</p>
+                    <p class="advice-card-autor-data">
+                      Publié le : <span>06 Septembre 2022</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer hidden">
+      <div class="container">
+        <a href="" class="footer-icon"
+          ><img src="img/Logo.png" alt="" class="footer-logo"
+        /></a>
+        <h4 class="footer-yellow">communauté</h4>
+        <h2 class="footer-heading">Suivez nous sur les réseaux</h2>
+        <p class="footer-description">
+          Rejoignez-nous sur les réseaux sociaux pour partager, apprendre et
+          grandir ensemble dans notre quête de recettes écologiques et
+          économiques. Votre voix compte, et nous sommes impatients de vous
+          accueillir dans notre communauté engagée !
+        </p>
+        <div class="footer-links">
+          <a href="" class="social-media-link">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 14C16.6852 14 14 16.6862 14 20C14 23.3146 16.6862 26 20 26C23.3146 26 26 23.3138 26 20C26 16.6854 23.3138 14 20 14ZM20 9.99999C25.5208 9.99999 30 14.4742 30 20C30 25.521 25.5258 30 20 30C14.479 30 9.99999 25.5258 9.99999 20C9.99999 14.479 14.4742 9.99999 20 9.99999ZM33 9.49829C33 10.8785 31.8784 11.9983 30.5 11.9983C29.1198 11.9983 28 10.8768 28 9.49829C28 8.11979 29.1214 6.99999 30.5 6.99999C31.8766 6.99825 33 8.11979 33 9.49829ZM20 4C15.051 4 14.2444 4.0131 11.9426 4.1156C10.3743 4.18922 9.32309 4.40014 8.34635 4.77934C7.47835 5.11597 6.85221 5.51795 6.18507 6.18509C5.51538 6.85479 5.11412 7.47925 4.77884 8.34765C4.39876 9.32663 4.1879 10.3762 4.1156 11.9423C4.0121 14.1504 4 14.9221 4 20C4 24.949 4.0131 25.7556 4.11558 28.0572C4.18924 29.6248 4.40044 30.6776 4.77872 31.652C5.11624 32.5212 5.51904 33.1488 6.18295 33.8128C6.85529 34.4842 7.48161 34.8868 8.34177 35.2188C9.33041 35.601 10.381 35.8122 11.9423 35.8844C14.1504 35.9878 14.9221 36 20 36C24.949 36 25.7556 35.9868 28.0572 35.8844C29.6214 35.811 30.675 35.5992 31.652 35.2212C32.5188 34.8846 33.1484 34.4804 33.8128 33.817C34.4852 33.1436 34.887 32.5188 35.2194 31.6566C35.6006 30.6716 35.8122 29.6196 35.8844 28.0578C35.9878 25.8496 36 25.0778 36 20C36 15.051 35.9868 14.2444 35.8844 11.9427C35.8108 10.3781 35.599 9.32297 35.2206 8.34635C34.8848 7.48075 34.4814 6.85269 33.8148 6.18509C33.144 5.51429 32.5212 5.11386 31.6522 4.77884C30.674 4.39908 29.6228 4.18792 28.0576 4.11562C25.8496 4.0121 25.0778 4 20 4ZM20 0C25.4332 0 26.1116 0.0199999 28.245 0.12C30.3732 0.21834 31.825 0.555 33.1 1.05C34.4182 1.55834 35.5316 2.245 36.6432 3.35666C37.7532 4.46834 38.44 5.58499 38.95 6.89999C39.4432 8.17333 39.78 9.62665 39.88 11.755C39.975 13.8883 40 14.5666 40 20C40 25.4334 39.98 26.1116 39.88 28.245C39.7816 30.3734 39.4432 31.825 38.95 33.1C38.4416 34.4184 37.7532 35.5316 36.6432 36.6434C35.5316 37.7534 34.4132 38.44 33.1 38.95C31.825 39.4434 30.3732 39.78 28.245 39.88C26.1116 39.975 25.4332 40 20 40C14.5666 40 13.8883 39.98 11.755 39.88C9.62665 39.7816 8.17665 39.4434 6.89999 38.95C5.58332 38.4416 4.46832 37.7534 3.35666 36.6434C2.245 35.5316 1.56 34.4134 1.05 33.1C0.555 31.825 0.22 30.3734 0.12 28.245C0.0250003 26.1116 0 25.4334 0 20C0 14.5666 0.0200003 13.8883 0.12 11.755C0.21832 9.62499 0.555 8.17499 1.05 6.89999C1.55832 5.58333 2.245 4.46834 3.35666 3.35666C4.46832 2.245 5.585 1.56 6.89999 1.05C8.17499 0.555 9.62499 0.22 11.755 0.12C13.8883 0.0249999 14.5666 0 20 0Z"
+                fill="white"
+              />
+            </svg>
+            <h3 class="social-media-heading">Instagram</h3>
+          </a>
+          <a href="" class="social-media-link">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.9813 34.3824C13.0287 33.7092 13.1242 33.0398 13.2672 32.3794C13.3931 31.7902 13.7754 30.1192 14.3355 27.6996L14.3497 27.6382C14.5959 26.5744 14.8598 25.4384 15.1237 24.305C15.282 23.6248 15.4052 23.0968 15.4868 22.9204C15.0983 22.0246 14.904 21.0526 14.9174 20.0746C14.9174 17.3998 16.4294 15.3272 18.3896 15.3272C19.109 15.3162 19.7972 15.6278 20.2746 16.18C20.7508 16.731 20.9706 17.467 20.8788 18.172C20.8788 19.077 20.7076 19.7688 19.971 22.2424C19.8296 22.7174 19.7328 23.0508 19.641 23.384C19.5372 23.7598 19.4502 24.1006 19.3754 24.4272C19.1836 25.2006 19.3602 26.022 19.8504 26.639C20.3394 27.2544 21.0822 27.5932 21.8618 27.5524C24.8464 27.5524 27.0622 23.5822 27.0622 18.4554C27.0622 14.5161 24.4804 11.9085 20.198 11.9083C18.0428 11.8225 15.9474 12.6505 14.3999 14.1997C12.8513 15.7502 11.9871 17.8874 12.0092 20.1228C11.9623 21.3266 12.3393 22.5072 13.0341 23.4106C13.3963 23.6882 13.5354 24.177 13.3833 24.5882C13.3012 24.9264 13.1032 25.6946 13.031 25.951C12.9873 26.2064 12.828 26.4262 12.6006 26.543C12.3716 26.6606 12.1015 26.6594 11.8904 26.5474C9.56818 25.5908 8.29738 22.9926 8.29738 19.6698C8.29738 13.6981 13.2806 8.4994 20.6814 8.4994C26.9524 8.4994 31.6442 13.1573 31.6442 18.7792C31.6442 25.844 27.7802 30.9884 22.2654 30.9884C20.6766 31.0404 19.1656 30.324 18.172 29.07L18.086 29.424C17.8978 30.1984 17.8036 30.5856 17.6716 31.1276L17.6678 31.143C17.3754 32.3434 17.1714 33.177 17.0922 33.4904C16.8804 34.1996 16.612 34.896 16.2922 35.5682C17.4822 35.8506 18.7236 36 20 36C28.8366 36 36 28.8366 36 20C36 11.1634 28.8366 4 20 4C11.1634 4 4 11.1634 4 20C4 26.3188 7.66292 31.7822 12.9813 34.3824ZM20 40C8.9543 40 0 31.0456 0 20C0 8.9543 8.9543 0 20 0C31.0456 0 40 8.9543 40 20C40 31.0456 31.0456 40 20 40Z"
+                fill="white"
+              />
+            </svg>
+            <h3 class="social-media-heading">Pinterest</h3>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <section class="menu">
+      <div class="container">
+        <div class="menu-content">
+          <div class="top-menu">
+            <button class="menu-close-btn btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                  d="M368 368L144 144M368 144L144 368"
+                />
+              </svg>
+            </button>
+            <a href="" class="menu-top-link">Totor &amp jadou</a>
+          </div>
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a href="" class="menu-link">Cuisine</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="" class="menu-link" style="color: #fdbd84">Maison</a>
+            </li>
+            <li class="menu-list-item">
+              <a
+                href=""
+                class="menu-link"
+                style="color: rgba(255, 255, 255, 0.5)"
+                >Blog</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="wave wave-active">
+        <div class="wave-innner"></div>
+        <div class="wave-innner"></div>
+        <div class="wave-innner"></div>
+      </div>
+    </section>
+    <div class="blur"></div>
+
+    <section class="modal-section hidden">
+      <div class="container modal-container"></div>
+    </section>
+
+    <script src="js/menu.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/advice-card.js"></script>
+  </body>
+</html>
