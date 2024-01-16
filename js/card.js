@@ -3,40 +3,40 @@ const items = [
     id: 1,
     title: "Spaghetti",
     price: 20.0,
-    img: "/img/dishes/macaron.png",
+    img: "img/dishes/macaron.png",
     mark: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus ac turpis blandit ipsum, diam, nisl feugiat ipsum. Et aliquam tempor suspendisse morbi quis. Nascetur etiam donec tellus purus amet, amet dis posuere orci. Quam fermentum integer enim arcu gravida feugiat. Orci, neque, purus dolor risus leo. Ut vel, velit morbi mollis. Amet, leo, vitae bibendum sed pellentesque.",
-    big_img: "/img/dishes/macaron-big.png",
+    big_img: "img/dishes/macaron-big.png",
   },
 
   {
     id: 2,
     title: "Lasagne",
     price: 35.4,
-    img: "/img/dishes/lazana.png",
+    img: "img/dishes/lazana.png",
     mark: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus ac turpis blandit ipsum, diam, nisl feugiat ipsum. Et aliquam tempor suspendisse morbi quis. Nascetur etiam donec tellus purus amet, amet dis posuere orci. Quam fermentum integer enim arcu gravida feugiat. Orci, neque, purus dolor risus leo. Ut vel, velit morbi mollis. Amet, leo, vitae bibendum sed pellentesque.",
-    big_img: "/img/dishes/laz-big.png",
+    big_img: "img/dishes/laz-big.png",
   },
 
   {
     id: 3,
     title: "Pâtes aux aubergines et tranches de chorizo",
     price: 15.0,
-    img: "/img/dishes/tartaleku.png",
+    img: "img/dishes/tartaleku.png",
     mark: 4,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus ac turpis blandit ipsum, diam, nisl feugiat ipsum. Et aliquam tempor suspendisse morbi quis. Nascetur etiam donec tellus purus amet, amet dis posuere orci. Quam fermentum integer enim arcu gravida feugiat. Orci, neque, purus dolor risus leo. Ut vel, velit morbi mollis. Amet, leo, vitae bibendum sed pellentesque.",
-    big_img: "/img/dishes/tar-big.png",
+    big_img: "img/dishes/tar-big.png",
   },
 
   {
     id: 4,
     title: "Riz",
     price: 24.0,
-    img: "/img/dishes/rus.png",
+    img: "img/dishes/rus.png",
     mark: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus ac turpis blandit ipsum, diam, nisl feugiat ipsum. Et aliquam tempor suspendisse morbi quis. Nascetur etiam donec tellus purus amet, amet dis posuere orci. Quam fermentum integer enim arcu gravida feugiat. Orci, neque, purus dolor risus leo. Ut vel, velit morbi mollis. Amet, leo, vitae bibendum sed pellentesque.",
-    big_img: "/img/dishes/rus-big.png",
+    big_img: "img/dishes/rus-big.png",
   },
 ];
 
@@ -44,20 +44,20 @@ const mainDishBig = {
   id: 1,
   title: "Pâtes aux aubergines et tranches de chorizo",
   price: 24.0,
-  img: "/img/dishes/rus.png",
+  img: "img/dishes/rus.png",
   mark: 5,
   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus ac turpis blandit ipsum, diam, nisl feugiat ipsum. Et aliquam tempor suspendisse morbi quis. Nascetur etiam donec tellus purus amet, amet dis posuere orci. Quam fermentum integer enim arcu gravida feugiat. Orci, neque, purus dolor risus leo. Ut vel, velit morbi mollis. Amet, leo, vitae bibendum sed pellentesque.",
-  big_img: "/img/dishes/rus-big.png",
+  big_img: "img/dishes/rus-big.png",
 };
 
 const secondDishBig = {
   id: 1,
   title: "Cake",
   price: 20.0,
-  img: "/img/dishes/cake.png",
+  img: "img/dishes/cake.png",
   mark: 3,
   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus ac turpis blandit ipsum, diam, nisl feugiat ipsum. Et aliquam tempor suspendisse morbi quis. Nascetur etiam donec tellus purus amet, amet dis posuere orci. Quam fermentum integer enim arcu gravida feugiat. Orci, neque, purus dolor risus leo. Ut vel, velit morbi mollis. Amet, leo, vitae bibendum sed pellentesque.",
-  big_img: "/img/dishes/cake-big.png",
+  big_img: "img/dishes/cake-big.png",
 };
 
 const dishesSection = document.querySelector(".dishes-cards");

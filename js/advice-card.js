@@ -1,25 +1,25 @@
 const itemsAdvice = [
   {
     name: "Le pouvoir des huiles essentielles",
-    img: "/img/AdvicePhoto.png",
+    img: "img/AdvicePhoto.png",
     desc: "Rejoignez-nous sur les réseaux sociaux pour partager, apprendre et grandir ensemble dans notre quête de recettes écologiques et économiques. Votre voix compte, et nous sommes impatients de vous accueillir dans notre communauté engagée !",
     mark: 4,
   },
   {
     name: "Le pouvoir des huiles essentielles",
-    img: "/img/AdvicePhoto.png",
+    img: "img/AdvicePhoto.png",
     desc: "Rejoignez-nous sur les réseaux sociaux pour partager, apprendre et grandir ensemble dans notre quête de recettes écologiques et économiques. Votre voix compte, et nous sommes impatients de vous accueillir dans notre communauté engagée !",
     mark: 5,
   },
   {
     name: "Le pouvoir des huiles essentielles",
-    img: "/img/AdvicePhoto.png",
+    img: "img/AdvicePhoto.png",
     desc: "Rejoignez-nous sur les réseaux sociaux pour partager, apprendre et grandir ensemble dans notre quête de recettes écologiques et économiques. Votre voix compte, et nous sommes impatients de vous accueillir dans notre communauté engagée !",
     mark: 2,
   },
   {
     name: "Le pouvoir des huiles essentielles",
-    img: "/img/AdvicePhoto.png",
+    img: "img/AdvicePhoto.png",
     desc: "Rejoignez-nous sur les réseaux sociaux pour partager, apprendre et grandir ensemble dans notre quête de recettes écologiques et économiques. Votre voix compte, et nous sommes impatients de vous accueillir dans notre communauté engagée !",
     mark: 3,
   },
