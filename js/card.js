@@ -309,6 +309,24 @@ window.addEventListener("DOMContentLoaded", function () {
   });
   cardItems = cardItems.join("");
   dishesSection.innerHTML = cardItems;
+  /*Preload*/
+
+  const media = document.querySelectorAll("img");
+  const preloader = document.querySelector(".preloader");
+  let i = 4;
+
+  //console.log(media);
+  media.forEach((file) => {
+    file.onload = () => {
+      i++;
+      //console.log(media.length + " " + i);
+      if (i === media.length) {
+        this.setTimeout(preloader.classList.add("preloader-hide"), 300);
+        document.body.style.cssText = "";
+        //console.log(preloader);
+      }
+    };
+  });
 });
 
 //Modal

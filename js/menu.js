@@ -9,10 +9,14 @@ const menuClosebtn = document.querySelector(".menu-close-btn");
 btn.addEventListener("click", function () {
   menu.classList.add("menu-active");
   blur.classList.add("blur-active");
+  document.body.style.cssText = `overflow-y: hidden; padding-right: ${
+    window.innerWidth - document.body.offsetWidth
+  }px`;
 });
 
 menuClosebtn.addEventListener("click", function () {
   menu.classList.remove("menu-active");
+  document.body.style.cssText = "";
   blur.classList.add("blur-disactive");
   setTimeout(() => {
     blur.classList.remove("blur-active");

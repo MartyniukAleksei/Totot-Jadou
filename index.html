@@ -14,6 +14,8 @@
     />
   </head>
   <body>
+    <img src="img/Background Noise (1).png" alt="" class="backgorund-img" />
+
     <header class="header hidden">
       <div class="container">
         <div class="header__list">
@@ -571,8 +573,39 @@
       <div class="container modal-container"></div>
     </section>
 
+    <div class="preloader" id="preloader">
+      <div class="loadingio-spinner-rolling-4bx1qpdoy45">
+        <div class="ldio-7637q68ttov">
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.body.style.cssText = `overflow-y: hidden; padding-right: ${
+        window.innerWidth - document.body.offsetWidth
+      }px`;
+    </script>
     <script src="js/menu.js"></script>
     <script src="js/card.js"></script>
     <script src="js/advice-card.js"></script>
+
+    <!-- <script>
+      /*Preload*/
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const media = document.querySelectorAll("img");
+        let i = 0;
+        console.log(media);
+        media.forEach((file) => {
+          file.onload = () => {
+            i++;
+            console.log(i);
+            if (i === media.length) {
+              preloader.classList.add("preloader-hide");
+            }
+          };
+        });
+      });
+    </script> -->
   </body>
 </html>
