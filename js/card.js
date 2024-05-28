@@ -309,7 +309,7 @@ window.addEventListener("DOMContentLoaded", function () {
   });
   cardItems = cardItems.join("");
   dishesSection.innerHTML = cardItems;
-  /*Preload*/
+  /*Preload
 
   const media = document.querySelectorAll("img");
   const preloader = document.querySelector(".preloader");
@@ -326,7 +326,7 @@ window.addEventListener("DOMContentLoaded", function () {
         //console.log(preloader);
       }
     };
-  });
+  });*/
 });
 
 //Modal
