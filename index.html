@@ -581,6 +581,12 @@
       </div>
     </div>
     <script>
+      window.addEventListener("load", () => {
+        preloader.classList.add("preloader-hide");
+        document.body.style.cssText = "";
+      });
+    </script>
+    <script>
       document.body.style.cssText = `overflow-y: hidden; padding-right: ${
         window.innerWidth - document.body.offsetWidth
       }px`;
