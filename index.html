@@ -581,6 +581,11 @@
       </div>
     </div>
     <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(window.scrollTo(0, 0), 1);
+      });
+    </script>
+    <script>
       window.addEventListener("load", () => {
         preloader.classList.add("preloader-hide");
         document.body.style.cssText = "";
